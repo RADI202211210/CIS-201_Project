@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact us</title>
+        <link rel="icon" href="../src/imgs/fox_logo.png" type="image/x-icon">
+        <link rel="stylesheet" href="../src/css/style.css">
+        <script src="../src/js/Scripts.js" defer></script>
+    </head>
+    <body>
+        <div class="margin">
+            <header>
+                <a href="/www/Index.html"><img src="../src/imgs/fox_logo.png" alt="Home" class="logo-image"/></a>
+                <img src="../src/imgs/Shopping_cart.png" alt="logo-image" class="cart-image">
+                <input type="text" placeholder="Search..." name="search" class="search-container">
+                <a href="/www/Contact_me.html" class="contactus_button">Contact us</a>
+                <a href="/www/About_me.html" class="aboutus_button">About us</a>
+                <h1 class="title">Contact us</h1>
+                <a href="/www/All.html" class="word-gap" style="color: black;">Products</a> <a href="/www/GPU.html" class="word-gap" style="color: black;">RTX Graphics Cards</a> <a href="/www/CPU.html" class="word-gap" style="color: black;">Intel CPUs</a> <a href="/www/Mtbd.html" class="word-gap" style="color: black;">MSI Motherboards</a> <a href="/www/Case.html" class="word-gap" style="color: black;">  NZXT Cases</a>
+                <hr>
+            </header>
+            <h1 style="text-align: center;">How can we help?</h1>
+            <form style="text-align: center;">
+                <h2>First name</h2><input type="text" id="Fname"name="Fname" pattern="[a-zA-Z]+" title="Please enter a valid name." required>
+                <br>
+                <br>
+                <h2>Last name</h2><input type="text" id="Lname"name="Lname" pattern="[a-zA-Z]+" title="Please enter a valid name." required>
+                <br>
+                <br>
+                <h2>Phone Number</h2><input type="text" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" title="Please enter a valid phone number in the format xxx-xxx-xxxx" required>
+                <br>
+                <br>
+                <h2>Email</h2>
+                <input type="email" id="Email" name="Email" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}" title="Please enter a valid email address, e.g., youremail@gmail.com" required>                <br>
+                <br>
+                <h2>Describe your problem</h2> <input type="text"id="FeedBack"name="FeedBack" placeholder="Describe your problem here..." style="width: 600px;  padding-bottom: 200px;"required>
+                <br>
+                <br>
+                <br>
+                <button type="reset">Reset</button>
+                <button><a type="Submit" onclick="alert('Your Feed Back has been sent.')">Submit</a></button>
+            </form>
+        </div>
+    </body>
+</html>
